@@ -1,0 +1,418 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>90529 Data Visualisation Homework 1</h1>
+      <h2>Luca Lo, Martina Fausto</h2>
+      <h2>4121569 loluca.owo@gmail.com, 4515876 martina.fausto@hotmail.it</h2>
+    </header>
+
+    <!-- BAR CHARTS X-->
+    <div>
+      <h3>BAR CHARTS</h3>
+      <svg class="graph">
+        <title id="title">Bar Chart for x-values</title>
+        <g class="grid x-grid" id="xGrid">
+          <line x1="90" x2="90" y1="5" y2="370"></line>
+        </g>
+        <g class="grid y-grid" id="yGrid">
+          <line x1="90" x2="705" y1="370" y2="370"></line>
+        </g>
+        <g class="labels x-labels">
+          <text x="90" y="400">0</text>
+          <text x="130" y="400">1</text>
+          <text x="170" y="400">2</text>
+          <text x="210" y="400">3</text>
+          <text x="250" y="400">4</text>
+          <text x="290" y="400">5</text>
+          <text x="330" y="400">6</text>
+          <text x="370" y="400">7</text>
+          <text x="410" y="400">8</text>
+          <text x="450" y="400">9</text>
+          <text x="490" y="400">10</text>
+          <text x="530" y="400">11</text>
+          <text x="570" y="400">12</text>
+          <text x="610" y="400">13</text>
+          <text x="650" y="400">14</text>
+          <text x="400" y="440" class="label-title">X VALUES</text>
+        </g>
+        <g class="labels y-labels">
+          <text x="80" y="357">A</text>
+          <text x="80" y="327">B</text>
+          <text x="80" y="297">C</text>
+          <text x="80" y="267">D</text>
+          <text x="80" y="237">E</text>
+          <text x="80" y="207">F</text>
+          <text x="80" y="177">G</text>
+          <text x="80" y="147">H</text>
+          <text x="77" y="117">I</text>
+          <text x="80" y="87">J</text>
+          <text x="80" y="57">K</text>
+          <text x="50" y="200" class="label-title">DATA</text>
+        </g>
+        <g class="data">
+          <rect width="400" height="25" x="90.5" y="340" />
+          <rect width="320" height="25" x="90.5" y="310" />
+          <rect width="520" height="25" x="90.5" y="280" />
+          <rect width="360" height="25" x="90.5" y="250" />
+          <rect width="440" height="25" x="90.5" y="220" />
+          <rect width="560" height="25" x="90.5" y="190" />
+          <rect width="240" height="25" x="90.5" y="160" />
+          <rect width="160" height="25" x="90.5" y="130" />
+          <rect width="480" height="25" x="90.5" y="100" />
+          <rect width="280" height="25" x="90.5" y="70" />
+          <rect width="200" height="25" x="90.5" y="40" />
+        </g>
+      </svg>
+
+      <!-- BAR CHARTS Y-->
+      <svg class="graph">
+        <title id="title">Bar Chart for y-values</title>
+        <g class="grid x-grid" id="xGrid">
+          <line x1="90" x2="90" y1="5" y2="370"></line>
+        </g>
+        <g class="grid y-grid" id="yGrid">
+          <line x1="90" x2="705" y1="370" y2="370"></line>
+        </g>
+        <g class="labels x-labels">
+          <text x="90" y="400">0</text>
+          <text x="130" y="400">1</text>
+          <text x="170" y="400">2</text>
+          <text x="210" y="400">3</text>
+          <text x="250" y="400">4</text>
+          <text x="290" y="400">5</text>
+          <text x="330" y="400">6</text>
+          <text x="370" y="400">7</text>
+          <text x="410" y="400">8</text>
+          <text x="450" y="400">9</text>
+          <text x="490" y="400">10</text>
+          <text x="530" y="400">11</text>
+          <text x="570" y="400">12</text>
+          <text x="610" y="400">13</text>
+          <text x="650" y="400">14</text>
+          <text x="400" y="440" class="label-title">Y VALUES</text>
+        </g>
+        <g class="labels y-labels">
+          <text x="80" y="357">A</text>
+          <text x="80" y="327">B</text>
+          <text x="80" y="297">C</text>
+          <text x="80" y="267">D</text>
+          <text x="80" y="237">E</text>
+          <text x="80" y="207">F</text>
+          <text x="80" y="177">G</text>
+          <text x="80" y="147">H</text>
+          <text x="77" y="117">I</text>
+          <text x="80" y="87">J</text>
+          <text x="80" y="57">K</text>
+          <text x="50" y="200" class="label-title">DATA</text>
+        </g>
+        <g class="data">
+          <rect width="364.4" height="25" x="90.5" y="340" />
+          <rect width="324.4" height="25" x="90.5" y="310" />
+          <rect width="348.4" height="25" x="90.5" y="280" />
+          <rect width="348.7" height="25" x="90.5" y="250" />
+          <rect width="368.6" height="25" x="90.5" y="220" />
+          <rect width="324" height="25" x="90.5" y="190" />
+          <rect width="244.3" height="25" x="90.5" y="160" />
+          <rect width="124" height="25" x="90.5" y="130" />
+          <rect width="364.3" height="25" x="90.5" y="100" />
+          <rect width="288.6" height="25" x="90.5" y="70" />
+          <rect width="188.4" height="25" x="90.5" y="40" />
+        </g>
+      </svg>
+    </div>
+
+    <!-- LINE CHARTS X-->
+    <div>
+      <h3>LINE CHARTS</h3>
+      <svg class="graph">
+        <title id="title">Line chart for x-values</title>
+        <g class="grid x-grid" id="yGrid">
+          <line x1="90" y1="20" x2="90" y2="500"></line>
+        </g>
+        <g class="grid y-grid" id="xGrid">
+          <line x1="90" y1="500" x2="500" y2="500"></line>
+        </g>
+        <g class="labels x-labels">
+          <text x="90" y="530">A</text>
+          <text x="130" y="530">B</text>
+          <text x="170" y="530">C</text>
+          <text x="210" y="530">D</text>
+          <text x="250" y="530">F</text>
+          <text x="290" y="530">G</text>
+          <text x="330" y="530">H</text>
+          <text x="370" y="530">I</text>
+          <text x="410" y="530">J</text>
+          <text x="450" y="530">K</text>
+          <text x="490" y="530">L</text>
+          <text x="290" y="570" class="label-title">DATA</text>
+        </g>
+        <g class="labels y-labels">
+          <text x="80" y="505">0</text>
+          <text x="80" y="475">1</text>
+          <text x="80" y="445">2</text>
+          <text x="80" y="415">3</text>
+          <text x="80" y="385">4</text>
+          <text x="80" y="355">5</text>
+          <text x="80" y="325">6</text>
+          <text x="80" y="295">7</text>
+          <text x="80" y="265">8</text>
+          <text x="80" y="235">9</text>
+          <text x="80" y="205">10</text>
+          <text x="80" y="175">11</text>
+          <text x="80" y="145">12</text>
+          <text x="80" y="115">13</text>
+          <text x="80" y="85">14</text>
+          <text x="60" y="295" class="label-title">X VALUES</text>
+        </g>
+
+        <g class="linedata">
+          <line x1="90" y1="200" x2="130" y2="260" />
+          <line x1="130" y1="260" x2="170" y2="110" />
+          <line x1="170" y1="110" x2="210" y2="230" />
+          <line x1="210" y1="230" x2="250" y2="170" />
+          <line x1="250" y1="170" x2="290" y2="80" />
+          <line x1="290" y1="80" x2="330" y2="320" />
+          <line x1="330" y1="320" x2="370" y2="380" />
+          <line x1="370" y1="380" x2="410" y2="140" />
+          <line x1="410" y1="140" x2="450" y2="290" />
+          <line x1="450" y1="290" x2="490" y2="350" />
+        </g>
+      </svg>
+
+      <!-- LINE CHARTS Y-->
+      <svg class="graph">
+        <title id="title">Line chart for y-values</title>
+        <g class="grid x-grid" id="yGrid">
+          <line x1="90" y1="20" x2="90" y2="500"></line>
+        </g>
+        <g class="grid y-grid" id="xGrid">
+          <line x1="90" y1="500" x2="500" y2="500"></line>
+        </g>
+        <g class="labels x-labels">
+          <text x="90" y="530">A</text>
+          <text x="130" y="530">B</text>
+          <text x="170" y="530">C</text>
+          <text x="210" y="530">D</text>
+          <text x="250" y="530">F</text>
+          <text x="290" y="530">G</text>
+          <text x="330" y="530">H</text>
+          <text x="370" y="530">I</text>
+          <text x="410" y="530">J</text>
+          <text x="450" y="530">K</text>
+          <text x="490" y="530">L</text>
+          <text x="290" y="570" class="label-title">DATA</text>
+        </g>
+        <g class="labels y-labels">
+          <text x="80" y="505">0</text>
+          <text x="80" y="475">1</text>
+          <text x="80" y="445">2</text>
+          <text x="80" y="415">3</text>
+          <text x="80" y="385">4</text>
+          <text x="80" y="355">5</text>
+          <text x="80" y="325">6</text>
+          <text x="80" y="295">7</text>
+          <text x="80" y="265">8</text>
+          <text x="80" y="235">9</text>
+          <text x="80" y="205">10</text>
+          <text x="80" y="175">11</text>
+          <text x="80" y="145">12</text>
+          <text x="80" y="115">13</text>
+          <text x="80" y="85">14</text>
+          <text x="60" y="295" class="label-title">Y VALUES</text>
+        </g>
+
+        <g class="linedata">
+          <line x1="90" y1="225.8" x2="130" y2="255.8" />
+          <line x1="130" y1="255.8" x2="170" y2="237.5" />
+          <line x1="170" y1="237.5" x2="210" y2="236.9" />
+          <line x1="210" y1="236.9" x2="250" y2="222.2" />
+          <line x1="250" y1="222.2" x2="290" y2="257" />
+          <line x1="290" y1="257" x2="330" y2="316.1" />
+          <line x1="330" y1="316.1" x2="370" y2="407" />
+          <line x1="370" y1="407" x2="410" y2="226.1" />
+          <line x1="410" y1="226.1" x2="450" y2="282.2" />
+          <line x1="450" y1="282.2" x2="490" y2="357.8" />
+        </g>
+      </svg>
+    </div>
+
+    <!-- AREA CHARTS X-->
+    <div>
+      <h3>AREA CHARTS</h3>
+      <svg class="graph">
+        <title id="title">Area chart for x-values</title>
+        <g class="grid x-grid" id="yGrid">
+          <line x1="90" y1="20" x2="90" y2="500"></line>
+        </g>
+        <g class="grid y-grid" id="xGrid">
+          <line x1="90" y1="500" x2="500" y2="500"></line>
+        </g>
+        <g class="labels x-labels">
+          <text x="90" y="530">A</text>
+          <text x="130" y="530">B</text>
+          <text x="170" y="530">C</text>
+          <text x="210" y="530">D</text>
+          <text x="250" y="530">F</text>
+          <text x="290" y="530">G</text>
+          <text x="330" y="530">H</text>
+          <text x="370" y="530">I</text>
+          <text x="410" y="530">J</text>
+          <text x="450" y="530">K</text>
+          <text x="490" y="530">L</text>
+          <text x="290" y="570" class="label-title">DATA</text>
+        </g>
+        <g class="labels y-labels">
+          <text x="80" y="505">0</text>
+          <text x="80" y="475">1</text>
+          <text x="80" y="445">2</text>
+          <text x="80" y="415">3</text>
+          <text x="80" y="385">4</text>
+          <text x="80" y="355">5</text>
+          <text x="80" y="325">6</text>
+          <text x="80" y="295">7</text>
+          <text x="80" y="265">8</text>
+          <text x="80" y="235">9</text>
+          <text x="80" y="205">10</text>
+          <text x="80" y="175">11</text>
+          <text x="80" y="145">12</text>
+          <text x="80" y="115">13</text>
+          <text x="80" y="85">14</text>
+          <text x="60" y="295" class="label-title">X VALUES</text>
+        </g>
+
+        <g class="data linedata">
+          <polygon points="90,200 130,260 130,500 90,500" />
+          <polygon points="130,260 170,110 170,500 130,500" />
+          <polygon points="170,110 210,230 210,500 170,500" />
+          <polygon points="210,230 250,170 250,500 210,500" />
+          <polygon points="250,170 290,80 290,500 250,500" />
+          <polygon points="290,80 330,320 330,500 290,500" />
+          <polygon points="330,320 370,380 370,500 330,500" />
+          <polygon points="370,380 410,140 410,500 370,500" />
+          <polygon points="410,140 450,290 450,500 410,500" />
+          <polygon points="450,290 490,350 490,500 450,500" />
+        </g>
+      </svg>
+
+      <!-- AREA CHARTS Y-->
+      <svg class="graph" id="rectx" aria-labelledby="title" role="img">
+        <title id="title">Area chart for y-values</title>
+        <g class="grid x-grid" id="yGrid">
+          <line x1="90" y1="20" x2="90" y2="500"></line>
+        </g>
+        <g class="grid y-grid" id="xGrid">
+          <line x1="90" y1="500" x2="500" y2="500"></line>
+        </g>
+        <g class="labels x-labels">
+          <text x="90" y="530">A</text>
+          <text x="130" y="530">B</text>
+          <text x="170" y="530">C</text>
+          <text x="210" y="530">D</text>
+          <text x="250" y="530">F</text>
+          <text x="290" y="530">G</text>
+          <text x="330" y="530">H</text>
+          <text x="370" y="530">I</text>
+          <text x="410" y="530">J</text>
+          <text x="450" y="530">K</text>
+          <text x="490" y="530">L</text>
+          <text x="290" y="570" class="label-title">DATA</text>
+        </g>
+        <g class="labels y-labels">
+          <text x="80" y="505">0</text>
+          <text x="80" y="475">1</text>
+          <text x="80" y="445">2</text>
+          <text x="80" y="415">3</text>
+          <text x="80" y="385">4</text>
+          <text x="80" y="355">5</text>
+          <text x="80" y="325">6</text>
+          <text x="80" y="295">7</text>
+          <text x="80" y="265">8</text>
+          <text x="80" y="235">9</text>
+          <text x="80" y="205">10</text>
+          <text x="80" y="175">11</text>
+          <text x="80" y="145">12</text>
+          <text x="80" y="115">13</text>
+          <text x="80" y="85">14</text>
+          <text x="60" y="295" class="label-title">Y VALUES</text>
+        </g>
+
+        <g class="linedata data">
+          <polygon points="90,225.8 130,255.8 130,500 90,500" />
+          <polygon points="130,255.8 170,237.5 170,500 130,500" />
+          <polygon points="170,237.5 210,236.9 210,500 170,500" />
+          <polygon points="210,236.9 250,222.2 250,500 210,500" />
+          <polygon points="250,222.2 290,257 290,500 250,500" />
+          <polygon points="290,257 330,316.1 330,500 290,500" />
+          <polygon points="330,316.1 370,407 370,500 330,500" />
+          <polygon points="370,407 410,226.1 410,500 370,500" />
+          <polygon points="410,226.1 450,282.2 450,500 410,500" />
+          <polygon points="450,282.2 490,357.8 490,500 450,500" />
+        </g>
+      </svg>
+    </div>
+
+    <!-- SCATTERPLOT -->
+    <div>
+      <h3>SCATTERPLOT</h3>
+      <svg class="graph">
+        <title id="title">A Scatterplot</title>
+        <g class="grid x-grid" id="xGrid">
+          <line x1="90" x2="90" y1="50" y2="500"></line>
+        </g>
+        <g class="grid y-grid" id="yGrid">
+          <line x1="90" x2="705" y1="500" y2="500"></line>
+        </g>
+        <g class="labels x-labels">
+          <text x="90" y="530">0</text>
+          <text x="130" y="530">1</text>
+          <text x="170" y="530">2</text>
+          <text x="210" y="530">3</text>
+          <text x="250" y="530">4</text>
+          <text x="290" y="530">5</text>
+          <text x="330" y="530">6</text>
+          <text x="370" y="530">7</text>
+          <text x="410" y="530">8</text>
+          <text x="450" y="530">9</text>
+          <text x="490" y="530">10</text>
+          <text x="530" y="530">11</text>
+          <text x="570" y="530">12</text>
+          <text x="610" y="530">13</text>
+          <text x="650" y="530">14</text>
+          <text x="400" y="570" class="label-title">X VALUES</text>
+        </g>
+
+        <g class="labels y-labels">
+          <text x="80" y="145">9</text>
+          <text x="80" y="185">8</text>
+          <text x="80" y="225">7</text>
+          <text x="80" y="265">6</text>
+          <text x="80" y="305">5</text>
+          <text x="80" y="345">4</text>
+          <text x="80" y="385">3</text>
+          <text x="80" y="425">2</text>
+          <text x="80" y="465">1</text>
+          <text x="50" y="270" class="label-title">Y VALUES</text>
+        </g>
+
+        <g class="data">
+          <circle cx="490" cy="139.40" r="10"></circle>
+          <circle cx="410" cy="179.40" r="10"></circle>
+          <circle cx="610" cy="155.40" r="10"></circle>
+          <circle cx="450" cy="154.20" r="10"></circle>
+          <circle cx="530" cy="134.60" r="10"></circle>
+          <circle cx="650" cy="181" r="10"></circle>
+          <circle cx="330" cy="259.80" r="10"></circle>
+          <circle cx="250" cy="381" r="10"></circle>
+          <circle cx="570" cy="139.80" r="10"></circle>
+          <circle cx="370" cy="214.60" r="10"></circle>
+          <circle cx="290" cy="315.40" r="10"></circle>
+        </g>
+      </svg>
+    </div>
+  </body>
+</html>

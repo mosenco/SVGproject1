@@ -1,0 +1,63 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <svg class="graph" id="rectx" aria-labelledby="title" role="img">
+      <title id="title">A line chart showing some information</title>
+      <g class="grid x-grid" id="yGrid">
+        <line x1="90" y1="20" x2="90" y2="500"></line>
+      </g>
+      <g class="grid y-grid" id="xGrid">
+        <line x1="90" y1="500" x2="500" y2="500"></line>
+      </g>
+      <g class="labels x-labels">
+        <text x="90" y="530">A</text>
+        <text x="130" y="530">B</text>
+        <text x="170" y="530">C</text>
+        <text x="210" y="530">D</text>
+        <text x="250" y="530">F</text>
+        <text x="290" y="530">G</text>
+        <text x="330" y="530">H</text>
+        <text x="370" y="530">I</text>
+        <text x="410" y="530">J</text>
+        <text x="450" y="530">K</text>
+        <text x="490" y="530">L</text>
+        <text x="290" y="570" class="label-title">DATA</text>
+      </g>
+      <g class="labels y-labels">
+        <text x="80" y="505">0</text>
+        <text x="80" y="475">1</text>
+        <text x="80" y="445">2</text>
+        <text x="80" y="415">3</text>
+        <text x="80" y="385">4</text>
+        <text x="80" y="355">5</text>
+        <text x="80" y="325">6</text>
+        <text x="80" y="295">7</text>
+        <text x="80" y="265">8</text>
+        <text x="80" y="235">9</text>
+        <text x="80" y="205">10</text>
+        <text x="80" y="175">11</text>
+        <text x="80" y="145">12</text>
+        <text x="80" y="115">13</text>
+        <text x="80" y="85">14</text>
+        <text x="60" y="295" class="label-title">Y VALUES</text>
+      </g>
+
+      <g class="linedata data">
+        <polygon points="90,225.8 130,255.8 130,500 90,500" />
+        <polygon points="130,255.8 170,237.5 170,500 130,500" />
+        <polygon points="170,237.5 210,236.9 210,500 170,500" />
+        <polygon points="210,236.9 250,222.2 250,500 210,500" />
+        <polygon points="250,222.2 290,257 290,500 250,500" />
+        <polygon points="290,257 330,316.1 330,500 290,500" />
+        <polygon points="330,316.1 370,407 370,500 330,500" />
+        <polygon points="370,407 410,226.1 410,500 370,500" />
+        <polygon points="410,226.1 450,282.2 450,500 410,500" />
+        <polygon points="450,282.2 490,357.8 490,500 450,500" />
+      </g>
+    </svg>
+  </body>
+</html>

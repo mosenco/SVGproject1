@@ -1,0 +1,57 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <svg class="graph" id="graphscatterplot" aria-labelledby="title" role="img">
+      <title id="title">A line chart showing some information</title>
+      <g class="grid x-grid" id="xGrid">
+        <line x1="90" x2="90" y1="0" y2="500"></line>
+      </g>
+      <g class="grid y-grid" id="yGrid">
+        <line x1="90" x2="705" y1="500" y2="500"></line>
+      </g>
+      <g class="labels x-labels">
+        <text x="90" y="530">0</text>
+        <text x="170" y="530">2</text>
+        <text x="250" y="530">4</text>
+        <text x="330" y="530">6</text>
+        <text x="410" y="530">8</text>
+        <text x="490" y="530">10</text>
+        <text x="570" y="530">12</text>
+        <text x="650" y="530">14</text>
+        <text x="400" y="570" class="label-title">X VALUES</text>
+      </g>
+
+      <g class="labels y-labels">
+        <text x="80" y="50">9</text>
+        <text x="80" y="100">8</text>
+        <text x="80" y="150">7</text>
+        <text x="80" y="200">6</text>
+        <text x="80" y="250">5</text>
+        <text x="80" y="300">4</text>
+        <text x="80" y="350">3</text>
+        <text x="80" y="400">2</text>
+        <text x="80" y="450">1</text>
+        <text x="80" y="500">0</text>
+        <text x="50" y="270" class="label-title">Y VALUES</text>
+      </g>
+
+      <g class="data">
+        <circle cx="490" cy="45.6" r="4"></circle>
+        <circle cx="410" cy="95.6" r="4"></circle>
+        <circle cx="610" cy="65.6" r="4"></circle>
+        <circle cx="450" cy="65.3" r="4"></circle>
+        <circle cx="530" cy="40.4" r="4"></circle>
+        <circle cx="650" cy="95" r="4"></circle>
+        <circle cx="330" cy="195.7" r="4"></circle>
+        <circle cx="250" cy="345" r="4"></circle>
+        <circle cx="570" cy="45.7" r="4"></circle>
+        <circle cx="370" cy="140.4" r="4"></circle>
+        <circle cx="290" cy="265.6" r="4"></circle>
+      </g>
+    </svg>
+  </body>
+</html>
